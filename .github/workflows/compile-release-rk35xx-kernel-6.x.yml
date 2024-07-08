@@ -50,7 +50,7 @@ on:
       kernel_sign:
         description: "Set the kernel custom signature"
         required: false
-        default: "-rk35xx-hiasia"
+        default: "-rk35xx-hello"
         type: choice
         options:
           - -rk35xx-ophub
