@@ -55,6 +55,7 @@ on:
         options:
           - -rk35xx-ophub
           - -rk35xx-hiasia
+          - -rk35xx-hello
       kernel_config:
         description: "Set the path of kernel .config"
         required: false
