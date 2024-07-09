@@ -21,14 +21,14 @@ on:
       kernel_version:
         description: "Select kernel version"
         required: false
-        default: "6.1.43"
+        default: "6.1.57"
         type: choice
         options:
-          - 6.1.43
+          - 6.1.57
       kernel_auto:
         description: "Auto use the latest kernel"
         required: false
-        default: true
+        default: false
         type: boolean
       kernel_package:
         description: "Select compile package list"
